@@ -1,5 +1,5 @@
 
-def removeDuplicates(nums: List[int]) -> int:
+def removeDuplicates(nums: list[int]) -> int:
     unique = 1
 
     for i in range(1, len(nums)):
